@@ -1,0 +1,128 @@
+
+.header{
+    background-color:#6e7f80;
+    color: white;
+}
+
+body{
+    background-color: white;
+    font-family: 'Helvetica', serif;
+    text-align: center;
+}
+
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2{
+    color: #6e7f80;
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+}
+
+h3{
+    color: black;
+}
+
+h4{
+    color: black;
+    font-style:italic;
+}
+
+span{
+    color: black;
+}
+
+ul{
+    list-style-type:none; 
+    color: black;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Adding hover + enlarging effect */
+.fa:hover {
+  opacity: 0.7;
+  font-size: 2em;  
+}
+
+/* Facebook */
+.fa-facebook {
+  /* background: #3B5998; */
+  color: #6e7f80;
+  background: none;
+}
+
+/* Twitter */
+.fa-twitter {
+  /* background: #55ACEE; Original Color */
+  color: #6e7f80;
+  background: none;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    /* background: #007bb5; */
+    color: #6e7f80;
+    background: none;
+  }
+  
+  /* Youtube */
+  .fa-youtube {
+    /* background: #bb0000; */
+    color: #6e7f80;
+    background: none;
+  }
+  
+  /* Instagram */
+  .fa-instagram {
+    /* background: #125688; */
+    color: #6e7f80;
+    background: none;
+  }
+
+  table, th, td, tr {
+    border: 1px solid;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+  }
+
+  label {
+    color: black;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 13%;
+  }
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey; 
+    border-width: 9px;
+    width: 12%;    
+    margin: 10% auto 10% auto;
+  }
+
